@@ -1,0 +1,48 @@
+{
+  "name": "babusca",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:bernardoenock/babusca.git",
+  "author": "Enock <bernardoenockgm@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "next start",
+    "dev": "next dev",
+    "build": "next build",
+    "dev:docs": "start-storybook -p 6006 --no-open",
+    "build-storybook": "build-storybook"
+  },
+  "dependencies": {
+    "@babel/preset-env": "^7.20.2",
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@mui/icons-material": "^5.11.0",
+    "@mui/material": "^5.11.0",
+    "@mui/x-data-grid": "^5.17.16",
+    "@mui/x-data-grid-generator": "^5.17.15",
+    "@types/styled-components": "^5.1.26",
+    "addon-screen-reader": "^1.8.6",
+    "ka-table": "^7.6.4",
+    "next": "^13.0.6",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "styled-components": "^5.3.6"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.5",
+    "@storybook/addon-actions": "^6.5.14",
+    "@storybook/addon-essentials": "^6.5.14",
+    "@storybook/addon-interactions": "^6.5.14",
+    "@storybook/addon-links": "^6.5.14",
+    "@storybook/addons": "^6.5.14",
+    "@storybook/builder-webpack5": "^6.5.14",
+    "@storybook/manager-webpack5": "^6.5.14",
+    "@storybook/react": "^6.5.14",
+    "@storybook/testing-library": "^0.0.13",
+    "@types/node": "18.11.15",
+    "@types/react": "18.0.26",
+    "babel-loader": "^9.1.0",
+    "typescript": "4.9.4",
+    "webpack": "^5.75.0"
+  }
+}
