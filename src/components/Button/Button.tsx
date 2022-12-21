@@ -43,5 +43,6 @@ export default function Button({children, ...props}: ButtonProps) {
 
 // Seta values default
 Button.defaultProps = {
+  variant: 'primary',
   disabled: false
 }
