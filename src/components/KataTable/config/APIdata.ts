@@ -4,7 +4,7 @@
 export const APIdata = [
   {
     id: 1,
-    date: '15/12/22',
+    date: '15/12/22 Sabado',
     min_c: '24,0°C',
     max_c: '31,0°C',
     hour_hot: '0h',
@@ -23,7 +23,7 @@ export const APIdata = [
   },
   {
     id: 2,
-    date: '15/12/22',
+    date: '15/12/22 Domingo',
     min_c: '24,0°C',
     max_c: '31,0°C',
     hour_hot: '0h',
@@ -42,7 +42,7 @@ export const APIdata = [
   },
   {
     id: 3,
-    date: '15/12/22',
+    date: '15/12/22 Segunda-feira',
     min_c: '24,0°C',
     max_c: '31,0°C',
     hour_hot: '0h',
@@ -61,7 +61,7 @@ export const APIdata = [
   },
   {
     id: 4,
-    date: '15/12/22',
+    date: '15/12/22 Terça-feira',
     min_c: '24,0°C',
     max_c: '31,0°C',
     hour_hot: '0h',
@@ -80,7 +80,7 @@ export const APIdata = [
   },
   {
     id: 5,
-    date: '15/12/22',
+    date: '15/12/22 Quarta-feira',
     min_c: '24,0°C',
     max_c: '31,0°C',
     hour_hot: '0h',
