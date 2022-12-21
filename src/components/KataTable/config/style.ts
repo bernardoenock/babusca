@@ -6,22 +6,48 @@ export const StyleTableConfig = styled.div`
 div.ka {
   div.ka-table-wrapper {
     /* TABLE */
+    padding: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     table.ka-table {
       /* THEAD */
+      border-radius: 20px;
+      overflow: hidden;
+      border: 4px solid ${props => props.theme.colors.primary.main};
+      border-collapse: collapse;
+      
       thead.ka-thead {
         border: 2px solid #000;
-        padding: 10px;
-        background-color: #5290FF;
+        background-color: ${props => props.theme.colors.primary.main};
+        color: #fff;
+
+        th.ka-thead-cell {
+          padding: 0.5rem;
+          border: 1px solid #000;
+        }
+        tr:nth-child(even) {
+          background-color: #fff;
+          color: #000 ;
+        }
+      }
+      
+      td.ka-cell {
+        padding: 1rem;
+        text-align: center;
+        border: 1px solid #000;
       }
       /* TBODY */
       tbody.ka-tbody {
-        border: 2px solid #000;
-        padding: 10px;
-        background-color: ${props => props.theme.colors.primary.main};
+        background-color: #E2F5FF;
+        align-items: center;
+        border: 1px solid red;
+        tr:nth-child(even) {
+          background-color: #fff;  
+        }
+      }
+      tfoot.ka-tfoot{
+        background-color: #1E80C7;
       }
     }
-
-   
   }
 }
 `

@@ -5,15 +5,19 @@ module.exports = {
     "../src/**/*.stories.mdx",
   ],
   "addons": [
-    "@storybook/addon-links",
-    "@storybook/addon-essentials",
-    "@storybook/addon-interactions",
-    "@storybook/addon-actions",
-    "@storybook/addons",
-    'addon-screen-reader'
+    {
+      name: '@storybook/addon-essentials',
+      options: {
+        'actions': false,
+      },
+    },
+    // "@storybook/addon-links",
+    // "@storybook/addon-interactions",
+    // "@storybook/addons",
+    // 'addon-screen-reader'
   ],
   "framework": "@storybook/react",
   "core": {
     "builder": "@storybook/builder-webpack5"
   }
-}
+} 

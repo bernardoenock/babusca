@@ -16,7 +16,7 @@ const KataTable: React.FC = () => {
   return (
 
     <StyleTableConfig>
-       <Table
+      <Table
       {...tableProps}
       dispatch={dispatch}
 
@@ -33,7 +33,7 @@ const KataTable: React.FC = () => {
       //     }
       //   }
       // }}
-    />
+      />
     </StyleTableConfig>
    
   );
