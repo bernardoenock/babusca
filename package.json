@@ -1,6 +1,6 @@
 {
   "name": "babusca",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Design System utilizando storybook",
   "main": "index.js",
   "plugins": [
@@ -14,7 +14,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build": "storybook build"
   },
   "repository": {
     "type": "git",
