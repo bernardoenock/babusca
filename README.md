@@ -1,2 +1,2 @@
-# babusca
-Design System utilizando storybook
+# Babusca Desing System
+
